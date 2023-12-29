@@ -1,0 +1,18 @@
+.button {
+  background: #d1d5db;
+  color: #374151;
+  display: flex;
+  align-items: center;
+}
+
+.bg-blue {
+  background: #5093e2;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.button-icon-left {
+  margin-right: 4px;
+}

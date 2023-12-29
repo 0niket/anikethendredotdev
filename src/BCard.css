@@ -1,0 +1,64 @@
+.bc-main {
+  border: 1px solid black;
+  border-radius: 20px;
+
+  min-width: 350px;
+  max-width: 500px;
+
+  background: #1a1b21;
+  margin: 40px;
+}
+
+.bc-main__header {
+  background-image: url("profile.png");
+  /* Set the background size to cover the entire div */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Fallback background color */
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 300px;
+
+  /* Border radius to match with the container */
+  border-radius: 20px 20px 0 0;
+}
+
+.bc-main__body {
+  padding: 20px;
+}
+
+.bc-main__body-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.bc-main__body-cta-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bc-main__body-cta {
+  margin: 0 8px 0;
+}
+
+.bc-main__body-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.bc-main__body-intro-element {
+  margin: 4px 0 4px;
+}
+
+.bc-main__body-about-heading {
+  margin: 28px 0 0;
+}
+
+.text-yellow {
+  color: #f3bf99;
+}
